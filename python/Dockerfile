@@ -5,7 +5,7 @@
 #   prpohar/python:3 \
 #   python    
 
-FROM alpine
+FROM alpine:3.14
 LABEL maintainer "Praveen praveen.pohar@gmail.com"
 
 RUN apk -v --update add \
